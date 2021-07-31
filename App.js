@@ -13,9 +13,9 @@ class UI {
         element.innerHTML = `
             <div class="card text-center mb-4">
                 <div class="card-body">
-                    <strong>Product name</strong>: ${product.name}
-                    <strong>Product price</strong>: ${product.price}
-                    <strong>Product times</strong>: ${product.times}
+                    <strong>Condiciones del equipo</strong>: ${product.name}
+                    <strong>Valor del Voltaje</strong>: ${product.price}
+                    <strong>Cantidad de mediciones</strong>: ${product.times}
                 </div>
             </div> 
         `;
