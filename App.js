@@ -34,7 +34,7 @@ class UI {
 
 // DOM Events
 document.getElementById('product-form')
-    .addEventListener('submit', function() {
+    .addEventListener('submit', function(e) {
     const name = document.getElementById('name').value;
     const price = document.getElementById('price').value;
     const times = document.getElementById('times').value;
